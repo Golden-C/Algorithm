@@ -17,6 +17,7 @@ function stringCompression(str){
         //update previous char
         prevChar = currentChar;
     }
+    //returns compressedstring if the length is less than original string str
     return compressedString.length < str.length ? compressedString : str;    
 }
 
